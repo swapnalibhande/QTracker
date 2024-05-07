@@ -1,0 +1,38 @@
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/06/22/01/books-2596809_1280.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    height: 500px;
+    width: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px whitesmoke;
+    backdrop-filter: blur(10px);
+    padding: 30px;
+}
+input{
+    width: 90%;
+    margin-top: 20px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 3px solid black;
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+}
+.lgnbtn{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
